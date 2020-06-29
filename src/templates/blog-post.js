@@ -15,12 +15,12 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <div class="post-banner">
+      <div className="post-banner">
       <img src={post.frontmatter.image.publicURL} alt={post.frontmatter.title} />
       </div>
       <div id="blog">
-      <div class="container">
-      <article class="blog-post">
+      <div className="container">
+      <article className="blog-post">
         <header>
           <h1>{post.frontmatter.title}</h1>
           <h3>{post.frontmatter.subtitle}</h3>
@@ -30,7 +30,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         <hr />
       </article>
 
-      <nav class="next-previous-blogs">
+      <nav className="next-previous-blogs">
         <ul>
           <li>
             {previous && (

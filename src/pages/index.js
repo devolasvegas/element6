@@ -19,7 +19,7 @@ import LinkMonic from "../components/projects/linkMonic"
 import LogoCarousel from '../components/carousel'
 import Locations from '../components/map/locations'
 
-const IndexPage = () => {
+const Home = () => {
     const data = useStaticQuery(graphql`
     query {
         allMarkdownRemark {
@@ -212,7 +212,7 @@ const IndexPage = () => {
             <div className="row">
             {data.allMarkdownRemark.edges.map((edge) => {
                 return (
-                    <div className="col-md-4" data-scroll-reveal="enter bottom move 100px over 1s after 0.3s">
+                    <div className="col-md-4" data-scroll-reveal="enter bottom move 100px over 1s after 0.3s" key={edge.node.fields.slug}>
 					<div className="blog-wrap">
 						<span>&#xe049;</span>
 						<h5>{edge.node.frontmatter.title}.</h5>
@@ -238,4 +238,4 @@ const IndexPage = () => {
 )
 }
 
-export default IndexPage
+export default Home

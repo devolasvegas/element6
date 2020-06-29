@@ -17,16 +17,16 @@ export default function SvgThree() {
 
   
   return (
-    <svg version="1.1" id="svg-icon-3" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48px" height="48px" viewBox="0 0 64 64" enable-background="new 0 0 64 64">
-      <path className="st3-0" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="62" height="50" d="M1 7 L63 7 L63 57 L1 57 Z"></path>
-      <path className="st3-1" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M1,15L63,15"></path>
-      <path className="st3-2" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M10,11L6,11"></path>
-      <path className="st3-3" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M18,11L14,11"></path>
-      <path className="st3-4" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M26,11L22,11"></path>
-      <path className="st3-5" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M6,25L33,25"></path>
-      <path className="st3-6" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M6,33L33,33"></path>
-      <path className="st3-7" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M6,41L33,41"></path>
-      <path className="st3-8" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="19" height="16" d="M38 25 L57 25 L57 41 L38 41 Z"></path>
+    <svg version="1.1" id="svg-icon-3" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48px" height="48px" viewBox="0 0 64 64" enableBackground="new 0 0 64 64">
+      <path className="st3-0" fill="none" stroke="#000000" strokeWidth="2" strokeMiterlimit="10" width="62" height="50" d="M1 7 L63 7 L63 57 L1 57 Z"></path>
+      <path className="st3-1" fill="none" stroke="#000000" strokeWidth="2" strokeMiterlimit="10" d="M1,15L63,15"></path>
+      <path className="st3-2" fill="none" stroke="#000000" strokeWidth="2" strokeMiterlimit="10" d="M10,11L6,11"></path>
+      <path className="st3-3" fill="none" stroke="#000000" strokeWidth="2" strokeMiterlimit="10" d="M18,11L14,11"></path>
+      <path className="st3-4" fill="none" stroke="#000000" strokeWidth="2" strokeMiterlimit="10" d="M26,11L22,11"></path>
+      <path className="st3-5" fill="none" stroke="#000000" strokeWidth="2" strokeMiterlimit="10" d="M6,25L33,25"></path>
+      <path className="st3-6" fill="none" stroke="#000000" strokeWidth="2" strokeMiterlimit="10" d="M6,33L33,33"></path>
+      <path className="st3-7" fill="none" stroke="#000000" strokeWidth="2" strokeMiterlimit="10" d="M6,41L33,41"></path>
+      <path className="st3-8" fill="none" stroke="#000000" strokeWidth="2" strokeMiterlimit="10" width="19" height="16" d="M38 25 L57 25 L57 41 L38 41 Z"></path>
     </svg>
   );
 }

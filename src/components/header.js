@@ -1,6 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
-import Scrollspy from 'react-scrollspy'
 import Navbar from './navbar'
 
 import "../theme/base.css"

@@ -1,7 +1,6 @@
 import React from 'react'
 import { useInView } from 'react-intersection-observer'
 import { motion } from 'framer-motion'
-import anime from 'animejs'
 
 // SVG
 import SvgOne from "../../images/SvgOne"
