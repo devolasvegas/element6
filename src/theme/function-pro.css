@@ -1,0 +1,78 @@
+/*!
+ * Web Fonts from Fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2018 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      FontSite Inc.
+ * License URL: https://www.fontspring.com/licenses/fontsite/webfont
+ *
+ *
+ */
+
+@font-face {
+    font-family: 'FunctionPro-Light';
+    src: url('./font/FunctionPro-Light-webfont.woff2') format('woff2'),
+         url('./font/FunctionPro-Light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FunctionPro-LightOblique';
+    src: url('./font/FunctionPro-LightOblique-webfont.woff2') format('woff2'),
+         url('./font/FunctionPro-LightOblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FunctionPro-Medium';
+    src: url('./font/FunctionPro-Medium-webfont.woff2') format('woff2'),
+         url('./font/FunctionPro-Medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FunctionPro-MediumOblique';
+    src: url('./font/FunctionPro-MediumOblique-webfont.woff2') format('woff2'),
+         url('./font/FunctionPro-MediumOblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FunctionPro-Demi';
+    src: url('./font/FunctionPro-Demi-webfont.woff2') format('woff2'),
+         url('./font/FunctionPro-Demi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FunctionPro-DemiOblique';
+    src: url('./font/FunctionPro-DemiOblique-webfont.woff2') format('woff2'),
+         url('./font/FunctionPro-DemiOblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
