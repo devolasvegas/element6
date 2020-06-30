@@ -22,7 +22,7 @@ export default function AboutUs() {
             <motion.div ref={ref} className="about-icon"
             animate={{ opacity: inView ? 1 : 0 }}
             transition={{ delay: 0.2, duration: 0.5 }} >
-                <SvgOne /> 
+                <SvgOne />
             </motion.div>
             <motion.div ref={ref} className="about-wrap"
             animate={{ opacity: inView ? 1 : 0 }}
@@ -66,7 +66,7 @@ export default function AboutUs() {
             <motion.div ref={ref} className="about-icon"
             animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 100 }}
             transition={{ delay: 0.2, duration: 1 }} >
-                <SvgFour />                    
+                <SvgFour />               
             </motion.div>
             <motion.div ref={ref} className="about-wrap"
             animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 100 }}

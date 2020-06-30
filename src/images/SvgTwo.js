@@ -1,18 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import anime from 'animejs/lib/anime.es.js'
 
 
 export default function SvgTwo () {
 
-  anime({
-    targets: '.st2-0, .st2-1, .st2-2, .st2-3, .st2-4, .st2-5, .st2-6, .st2-7, .st2-8, .st2-9, .st2-10, .st2-11', 
-    strokeDashoffset: [anime.setDashoffset, 0],
-    easing: 'cubicBezier(.5, .05, .1, .3)',
-    duration: 2000,
-    loop: false,
-    direction: 'alternate',
-    delay: function(el, i) { return i * 250 },      
-  });  
+  useEffect(() => {
+    anime({
+      targets: '.st2-0, .st2-1, .st2-2, .st2-3, .st2-4, .st2-5, .st2-6, .st2-7, .st2-8, .st2-9, .st2-10, .st2-11',
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: 'cubicBezier(.5, .05, .1, .3)',
+      duration: 2000,
+      loop: false,
+      direction: 'alternate',
+      delay: function(el, i) { return i * 250 },      
+    });    
+  })
 
   return (
     <svg version="1.1" id="svg-icon-2" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48px" height="48px" viewBox="0 0 64 64" enableBackground="new 0 0 64 64">

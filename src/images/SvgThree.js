@@ -1,19 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import anime from 'animejs/lib/anime.es.js'
 
 export default function SvgThree() {
 
-  anime({
-    targets: '.st3-0, .st3-1, .st3-2, .st3-3, .st3-4, .st3-5, .st3-6, .st3-7, .st3-8',
-    strokeDashoffset: [anime.setDashoffset, 0],
-    easing: 'cubicBezier(.5, .05, .1, .3)',
-    duration: 2000,
-    loop: false,
-    direction: 'alternate',
-    delay: function(el, i) { return i * 250 },      
-  }, {
-    
-  });  
+  useEffect(() => {
+    anime({
+      targets: '.st3-0, .st3-1, .st3-2, .st3-3, .st3-4, .st3-5, .st3-6, .st3-7, .st3-8',
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: 'cubicBezier(.5, .05, .1, .3)',
+      duration: 2000,
+      loop: false,
+      direction: 'alternate',
+      delay: function(el, i) { return i * 250 },      
+    });    
+  })
 
   
   return (
